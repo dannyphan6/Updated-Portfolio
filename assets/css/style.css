@@ -4,21 +4,21 @@
     color: beige;
 }
 
-.navbar-brand {
+.custom-navbar-brand {
     font-size: 2.5rem;
 }
 
-.navbar-collapse {
+.custom-navbar-collapse {
     flex-grow: 0;
     font-size: 1.5rem;
 }
 
-.navbar-text {
+.custom-navbar-text {
     color: beige;
     margin-left: 2.5rem;
 }
 
-.navbar-text:hover {
+.custom-navbar-text:hover {
     text-decoration: underline;
     font-weight: bold;
     color: beige;
@@ -26,4 +26,43 @@
 
 #header-img {
     width: 100%;
+}
+
+.custom-card-footer {
+    background-color: rgb(66, 64, 64);
+    color: beige;
+    font-family: "Quicksand", sans-serif;
+    font-size: 1.25rem;
+}
+
+.project-link {
+    color: beige;
+}
+
+.project-link:hover {
+    text-decoration: underline;
+    font-weight: bold;
+    color: beige;
+}
+
+.custom-row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.custom-card-img {
+    width: 18%;
+}
+
+.custom-card-title {
+    text-align: center;
+}
+
+.custom-card-text {
+    text-align: center;
+}
+
+.custom-rounded {
+    border-radius: 50%;
+    margin-top: 1rem;
 }
