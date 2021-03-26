@@ -1,0 +1,29 @@
+.header-bg {
+    background-color: rgb(66, 64, 64);
+    font-family: "Quicksand", sans-serif;
+    color: beige;
+}
+
+.navbar-brand {
+    font-size: 2.5rem;
+}
+
+.navbar-collapse {
+    flex-grow: 0;
+    font-size: 1.5rem;
+}
+
+.navbar-text {
+    color: beige;
+    margin-left: 2.5rem;
+}
+
+.navbar-text:hover {
+    text-decoration: underline;
+    font-weight: bold;
+    color: beige;
+}
+
+#header-img {
+    width: 100%;
+}
