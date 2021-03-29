@@ -72,7 +72,27 @@ hr {
     width: 100%;
 }
 
-.form-style {
+.contact {
+    font-family: "Quicksand", sans-serif;
+    color:  rgb(66, 64, 64);
     text-align: center;
+}
+
+#contact-font {
+    font-size: 2rem;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#message-font {
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.form-style {
+    text-align: left;
     width: 50%;
+    margin: auto;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 600;
 }
