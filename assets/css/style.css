@@ -33,6 +33,7 @@
     color: beige;
     font-family: "Quicksand", sans-serif;
     font-size: 1.25rem;
+    text-align: center;
 }
 
 .project-link {
@@ -69,4 +70,9 @@
 
 hr {
     width: 100%;
+}
+
+.form-style {
+    text-align: center;
+    width: 50%;
 }
