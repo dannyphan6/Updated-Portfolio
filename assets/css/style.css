@@ -44,6 +44,15 @@
     color: beige;
 }
 
+#proj-title {
+    font-size: 2rem;
+    text-align: center;
+    font-family: "Quicksand", sans-serif;
+    text-decoration: underline;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+}
+
 .project-link:hover {
     text-decoration: underline;
     font-weight: bold;
