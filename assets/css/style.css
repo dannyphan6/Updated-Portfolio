@@ -98,7 +98,8 @@ hr {
 }
 
 #custom-p {
-    margin-top: auto;
+    text-align: center;
+    width: 100%;
 }
 
 #custom-button {
