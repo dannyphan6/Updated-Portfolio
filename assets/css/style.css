@@ -62,10 +62,6 @@
     text-align: center;
 }
 
-.project-link {
-    color: beige;
-}
-
 #proj-title {
     text-align: center;
     font-family: "Quicksand", sans-serif;
@@ -74,8 +70,11 @@
     margin-bottom: 1.5rem;
 }
 
+.project-link {
+    color: beige;
+}
+
 .project-link:hover {
-    text-decoration: underline;
     font-weight: bold;
     color: beige;
 }
@@ -91,6 +90,7 @@
 
 .custom-card-title {
     text-align: center;
+    text-decoration: underline;
 }
 
 .custom-card-text {
