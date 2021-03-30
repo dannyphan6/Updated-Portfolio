@@ -8,6 +8,10 @@
     font-size: 2.5rem;
 }
 
+.custom-bg-dark {
+    background-color: rgb(66, 64, 64);
+}
+
 .custom-navbar-collapse {
     flex-grow: 0;
     font-size: 1.5rem;
@@ -63,6 +67,16 @@
     text-align: center;
 }
 
+.card-font {
+    font-family: "Quicksand", sans-serif;
+    font-weight: 600;
+}
+
+.description {
+    font-size: 2rem;
+    text-decoration: underline;
+}
+
 .custom-rounded {
     border-radius: 50%;
     margin-top: 1rem;
@@ -109,6 +123,23 @@ hr {
 .icon {
     width: 100%;
     text-align: center;
+}
+
+.three-icons {
+    color: beige;
+    margin-right: 1.5%;
+}
+
+.three-icons:hover {
+    color: beige;
+}
+
+.grow {
+    transition: all .2s ease-in-out; 
+}
+
+.grow:hover {
+    transform: scale(1.1); 
 }
 
 #custom-button {
