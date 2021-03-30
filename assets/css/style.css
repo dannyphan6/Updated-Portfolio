@@ -23,9 +23,31 @@
 }
 
 .custom-navbar-text:hover {
-    text-decoration: underline;
     font-weight: bold;
     color: beige;
+}
+
+.hover-animation {
+    display: inline-block;
+    position: relative;
+}
+
+.hover-animation::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: .125rem;
+    bottom: 0;
+    left: 0;
+    background-color: beige;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.hover-animation:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
 }
 
 #header-img {
