@@ -102,6 +102,15 @@ hr {
     width: 100%;
 }
 
+.navbar {
+    flex-flow: wrap !important;
+}
+
+.icon {
+    width: 100%;
+    text-align: center;
+}
+
 #custom-button {
     display: flex;
     margin-left: auto;
