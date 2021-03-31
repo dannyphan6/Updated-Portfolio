@@ -7,7 +7,7 @@ Hi there! Welcome to my portfolio where you can view my projects with links to t
 * [Deployed Link](https://dannyphan6.github.io/Updated-Portfolio/)
 * [GitHub Repository](https://github.com/dannyphan6/Updated-Portfolio)
 
-![Portfolio]()
+![Portfolio](./assets/images/updated-portfolio.jpg)
 
 ## Summary:
 1. Projects will showcase my knowledge of different languages
